@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="TISensorBrowser.Core/TISensorBrowser.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TISensorBrowser.Core/Pages/DeviceList.xaml">
+    <Files>
+      <File FileName="TISensorBrowser.Core/Pages/ServiceList.xaml.cs" Line="74" Column="5" />
+      <File FileName="TISensorBrowser.Core/CharacteristicManager.cs" Line="16" Column="31" />
+      <File FileName="TISensorBrowser.Core/CharacteristicDetails.cs" Line="47" Column="67" />
+      <File FileName="TISensorBrowser.Core/Pages/DeviceList.xaml.cs" Line="65" Column="4" />
+      <File FileName="TISensorBrowser.Core/Pages/DeviceList.xaml" Line="16" Column="63" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
