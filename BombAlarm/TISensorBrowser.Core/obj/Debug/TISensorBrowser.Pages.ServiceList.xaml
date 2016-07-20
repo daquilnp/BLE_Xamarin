@@ -19,16 +19,7 @@
 	    <DataTemplate>
 	      <ViewCell>
 	      	<StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal">	
-		     	<StackLayout Padding="5,0,0,0" VerticalOptions="StartAndExpand" Orientation="Vertical">
-		        	<Label Text="{Binding Name, Converter={StaticResource strConverter}}" 
-		        		YAlign="Center" 
-		        		LineBreakMode="TailTruncation"
-		        		Font="Medium" />
-		        	<Label Text="{Binding Path=ID, Converter={StaticResource guidConverter}}" 
-			        	YAlign="Center" 
-			        	Font="Micro"
-			        	TextColor="Gray" />
-		        </StackLayout>
+	 				 <TimePicker x:Name="picker"/>
 	         </StackLayout>
 	      </ViewCell>
 	    </DataTemplate>

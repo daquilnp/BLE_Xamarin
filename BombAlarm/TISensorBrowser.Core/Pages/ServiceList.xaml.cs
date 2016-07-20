@@ -54,11 +54,18 @@ namespace TISensorBrowser
 							if (foundScratchflag == true){
 							
 								cm = new CharacteristicManager(adapter, device, Service, Scartch_Service_2);
+									var time_page = new SetTimerPage ();
+
+
+									// load services on the next page
+									Navigation.PushAsync(time_page);
 									if (cm.Detail.Characteristic.CanUpdate) {
 										cm.Detail.Characteristic.ValueUpdated += (object sender, CharacteristicReadEventArgs eve) => {
 											Debug.WriteLine("Characteristic.ValueUpdated");
 											Device.BeginInvokeOnMainThread( () => {
 												cm.Detail.UpdateValue(cm.Detail.Characteristic);
+											
+
 											});
 										};
 

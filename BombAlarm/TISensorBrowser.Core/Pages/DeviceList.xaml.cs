@@ -45,6 +45,11 @@ namespace TISensorBrowser
 			};
 			InfoFrame.IsVisible = false;
 			StartScanning();
+			var time_page = new SetTimerPage ();
+
+
+			// load services on the next page
+			Navigation.PushAsync(time_page);
 		}
 
 		public void OnItemSelected (object sender, SelectedItemChangedEventArgs e) {
@@ -59,9 +64,8 @@ namespace TISensorBrowser
 		public void toService(object sender, IDevice device){
 			IsBusy = false;
 			StopScanning ();
-
 			var servicePage = new ServiceList(adapter, device);
-			Debug.WriteLine("made it here");
+
 
 			// load services on the next page
 			Navigation.PushAsync(servicePage);
