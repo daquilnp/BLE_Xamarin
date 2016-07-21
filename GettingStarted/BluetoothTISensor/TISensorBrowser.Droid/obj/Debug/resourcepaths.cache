@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <AdditionalAndroidResourcePaths />
+  <AdditionalJavaLibraryReferences>
+    <AdditionalJavaLibraryReference>/Users/Nicholas/.local/share/Xamarin/Android.Support.v13/20.0.0/content/support/v13/android-support-v13.jar</AdditionalJavaLibraryReference>
+  </AdditionalJavaLibraryReferences>
+  <AdditionalNativeLibraryReferences />
+</Paths>
