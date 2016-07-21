@@ -45,11 +45,7 @@ namespace TISensorBrowser
 			};
 			InfoFrame.IsVisible = false;
 			StartScanning();
-			var time_page = new SetTimerPage ();
-
-
-			// load services on the next page
-			Navigation.PushAsync(time_page);
+	
 		}
 
 		public void OnItemSelected (object sender, SelectedItemChangedEventArgs e) {

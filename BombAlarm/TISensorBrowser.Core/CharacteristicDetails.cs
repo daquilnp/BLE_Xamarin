@@ -17,15 +17,6 @@ namespace TISensorBrowser
 		{
 			this.Characteristic = Characteristic;
 
-//			if (Characteristic.CanUpdate) {
-//				Characteristic.ValueUpdated += (s, e) => {
-//					Debug.WriteLine("Characteristic.ValueUpdated");
-//					Device.BeginInvokeOnMainThread( () => {
-//						UpdateValue(Characteristic);
-//					});
-//				};
-//				Characteristic.StartUpdates();
-//			}
 		}
 
 		public async void OnAppearing ()
@@ -52,19 +43,18 @@ namespace TISensorBrowser
 			//select i.ToString ()); //i.ToString ("X"));
 			List<string> numbers = hex.Split('-').ToList<string>();
 			string resultstring = "";
-			int counter = 0;
+
 
 			foreach (string number  in numbers) {
-				counter++;
-				int temp = int.Parse(number, System.Globalization.NumberStyles.HexNumber);
-				if (counter == 1) { //only grab first value, can be changed to get more values
-					resultstring = temp.ToString ();
-				}
-				if (temp == 31) {
-					Debug.WriteLine ("ITS 31");	
-				}
+
+				int pin_val = int.Parse (number, System.Globalization.NumberStyles.HexNumber);
+
+				resultstring = pin_val.ToString ();
+				Debug.WriteLine (resultstring);
+			
+
 			}
-			Debug.WriteLine (resultstring);
+
 		}
 	}
 }
