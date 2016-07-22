@@ -1,5 +1,5 @@
 #Usage
-This is an example code based off of Monkey.Robotics Xamarin BluetoothTISensor that I modified. Do not forget to change
+This is an example code based off of Monkey.Robotics Xamarin BluetoothTISensor ( https://github.com/xamarin/Monkey.Robotics ) that I modified. Do not forget to change
 the target in the AndroidManifest.xml in the Properties folder of TISensorBrowser.Droid (if you are using Android with Xamarin).
 
 #Scratch Characteristics
