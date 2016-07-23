@@ -10,7 +10,7 @@ namespace TISensorBrowser
 
 		public static Page GetMainPage ()
 		{	
-			var np = new NavigationPage (new DeviceList (Adapter));
+			var np = new NavigationPage (new SetTimerPage (Adapter));
 			if (Device.OS != TargetPlatform.iOS) {
 				// we manage iOS themeing via the native app Appearance API
 				np.BarBackgroundColor = Color.Red;

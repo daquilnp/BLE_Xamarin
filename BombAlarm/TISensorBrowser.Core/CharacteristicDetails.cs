@@ -23,7 +23,7 @@ namespace TISensorBrowser
 		{
 			if (Characteristic.CanRead) {
 				var c = await Characteristic.ReadAsync();
-				UpdateValue(c);
+
 			}
 		}
 
@@ -34,7 +34,7 @@ namespace TISensorBrowser
 				Characteristic.StopUpdates();
 			}
 		}
-		public void UpdateValue (ICharacteristic c) {
+		public bool UpdateValue (ICharacteristic c, List<int> DiffuseArray) {
 //			Name.Text = c.Name;
 //			//ID.Text = c.ID.ToString(); OTHER INFO YOU CAN GET FROM BEAN
 //			ID.Text = c.ID.PartialFromUuid ();
@@ -43,17 +43,21 @@ namespace TISensorBrowser
 			//select i.ToString ()); //i.ToString ("X"));
 			List<string> numbers = hex.Split('-').ToList<string>();
 			string resultstring = "";
-
-
+			int diffuse_index = 0;
+			bool is_right_values = true;
 			foreach (string number  in numbers) {
 
 				int pin_val = int.Parse (number, System.Globalization.NumberStyles.HexNumber);
 
 				resultstring = pin_val.ToString ();
 				Debug.WriteLine (resultstring);
-			
+				if (pin_val != DiffuseArray [diffuse_index]) {
+					is_right_values = false;
+				}
+				diffuse_index++;
 
 			}
+			return is_right_values;
 
 		}
 	}

@@ -12,9 +12,10 @@ namespace TISensorBrowser
 		IAdapter adapter;
 		IDevice device;
 		IService Service; 
+		Random rnd = new Random();
 
 		CharacteristicManager cm;
-	
+		List<int> DiffuseArray = new List<int>{0, 0, 0};
 
 		Guid Scartch_Service = new Guid ("a495ff20-c5b1-4b44-b512-1370f02d74de");
 		Guid Scartch_Service_2 = new Guid ("a495ff22-c5b1-4b44-b512-1370f02d74de");
@@ -57,13 +58,43 @@ namespace TISensorBrowser
 										cm.Detail.Characteristic.ValueUpdated += (object sender, CharacteristicReadEventArgs eve) => {
 											Debug.WriteLine("Characteristic.ValueUpdated");
 											Device.BeginInvokeOnMainThread( () => {
-												cm.Detail.UpdateValue(cm.Detail.Characteristic);
-											
+												bool diffused = cm.Detail.UpdateValue(cm.Detail.Characteristic, DiffuseArray);
+												if (diffused == true){
+													cm.Detail.OnDisappearing();
+													adapter.DisconnectDevice (device);
+													Navigation.PopToRootAsync();
+												}
 
 											});
 										};
 
 										cm.Detail.Characteristic.StartUpdates();
+
+										DiffuseArray[0] = rnd.Next(2);
+										DiffuseArray[1] = rnd.Next(2);
+										DiffuseArray[2] = rnd.Next(2);
+										Debug.WriteLine("Diffuse Red: " + DiffuseArray[0].ToString());
+										Debug.WriteLine("Diffuse Brown: " + DiffuseArray[1].ToString());
+										Debug.WriteLine("Diffuse Blue: " + DiffuseArray[2].ToString());
+										bool is_cut_wire = false;
+										if (DiffuseArray[0] == 1){
+											red_wire_label.Text = red_wire_label.Text + "CUT";
+											is_cut_wire = true;
+										}
+										if (DiffuseArray[1] == 1){
+											brown_wire_label.Text = brown_wire_label.Text + "CUT";
+											is_cut_wire = true;
+										}
+										if (DiffuseArray[2] == 1){
+											blue_wire_label.Text = blue_wire_label.Text + "CUT";
+											is_cut_wire = true;
+										}
+										if (is_cut_wire == false){
+											DiffuseArray[0] = 1;
+											red_wire_label.Text = red_wire_label.Text + "CUT";
+											//if none are picked for cut wire, default to red needing to be cut
+										}
+
 									}
 							}
 							});
@@ -84,14 +115,14 @@ namespace TISensorBrowser
 			DisconnectButton.Activated += (sender, e) => {
 				cm.Detail.OnDisappearing();
 				adapter.DisconnectDevice (device);
-				Navigation.PopToRootAsync(); // disconnect means start over
+				Navigation.PopToRootAsync();
 			};
 		}
 			
 		protected override void OnAppearing ()
 		{
 			base.OnAppearing ();
-			if (services.Count == 0) {
+			if (foundScratchflag == false) {
 				Debug.WriteLine ("No services, attempting to connect to device");
 				IsBusy = true;
 				// start looking for the device
@@ -99,6 +130,9 @@ namespace TISensorBrowser
 			}
 		}
 		public void OnItemSelected (object sender, SelectedItemChangedEventArgs e) {
+
+		}
+		public void DeactivateBomb(){
 
 		}
 	}

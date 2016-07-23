@@ -3,7 +3,7 @@
 		     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
  			 xmlns:local="clr-namespace:TISensorBrowser;assembly=TISensorBrowser"
 		     x:Class="TISensorBrowser.ServiceList"
-		     Title="Service List">
+		     Title="Diffuse!!!">
 	<ContentPage.Resources>
 	    <ResourceDictionary>
 	        <local:GuidConverter x:Key="guidConverter"/>
@@ -14,15 +14,27 @@
     	<ToolbarItem x:Name="DisconnectButton" Name="Disconnect" Icon="glyphish_31_circle_x.png"/>    
 	</ContentPage.ToolbarItems>
 
-	<ListView x:Name="listView" ItemSelected="OnItemSelected">
-	  <ListView.ItemTemplate>
-	    <DataTemplate>
-	      <ViewCell>
-	      	<StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal">	
-	 				 <TimePicker x:Name="picker"/>
-	         </StackLayout>
-	      </ViewCell>
-	    </DataTemplate>
-	  </ListView.ItemTemplate>
-	</ListView>
+
+
+	  	<StackLayout Spacing = "30" VerticalOptions = "Center" >
+				 	<Label x:Name = "red_wire_label" Text = "Red Wire => " 
+				 	TextColor = "Red"	
+	        		YAlign="Center" 
+	        		LineBreakMode="TailTruncation"
+	        		Font="Large"
+	        		 />
+	        		<Label x:Name = "brown_wire_label" Text = "Brown Wire => " 
+	        		TextColor = "Olive"
+	        		YAlign="Center" 
+	        		LineBreakMode="TailTruncation"
+	        		Font="Large" />
+	        		<Label x:Name = "blue_wire_label" Text = "Blue Wire => " 
+	        		TextColor = "Blue"
+	        		YAlign="Center" 
+	        		LineBreakMode="TailTruncation"
+	        		Font="Large" />
+	     </StackLayout>
+
+
+
 </ContentPage>

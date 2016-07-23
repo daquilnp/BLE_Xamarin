@@ -18,12 +18,18 @@ namespace TISensorBrowser {
         
         private ToolbarItem DisconnectButton;
         
-        private ListView listView;
+        private Label red_wire_label;
+        
+        private Label brown_wire_label;
+        
+        private Label blue_wire_label;
         
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(ServiceList));
             DisconnectButton = this.FindByName <ToolbarItem>("DisconnectButton");
-            listView = this.FindByName <ListView>("listView");
+            red_wire_label = this.FindByName <Label>("red_wire_label");
+            brown_wire_label = this.FindByName <Label>("brown_wire_label");
+            blue_wire_label = this.FindByName <Label>("blue_wire_label");
         }
     }
 }
