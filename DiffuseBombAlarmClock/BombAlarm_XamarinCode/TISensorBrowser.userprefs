@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="TISensorBrowser.Core/TISensorBrowser.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TISensorBrowser.Core/Pages/ServiceList.xaml.cs">
+    <Files>
+      <File FileName="TISensorBrowser.Core/Pages/ServiceList.xaml.cs" Line="95" Column="79" />
+      <File FileName="TISensorBrowser.Core/CharacteristicManager.cs" Line="40" Column="43" />
+      <File FileName="TISensorBrowser.Core/CharacteristicDetails.cs" Line="59" Column="5" />
+      <File FileName="TISensorBrowser.Core/Pages/ServiceList.xaml" Line="31" Column="43" />
+      <File FileName="TISensorBrowser.Core/Pages/SetTimerPage.xaml" Line="4" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TISensorBrowser.Droid AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>
