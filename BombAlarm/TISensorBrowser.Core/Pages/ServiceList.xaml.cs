@@ -14,7 +14,7 @@ namespace TISensorBrowser
 		IService Service; 
 
 		CharacteristicManager cm;
-		ObservableCollection<IService> services;
+	
 
 		Guid Scartch_Service = new Guid ("a495ff20-c5b1-4b44-b512-1370f02d74de");
 		Guid Scartch_Service_2 = new Guid ("a495ff22-c5b1-4b44-b512-1370f02d74de");
@@ -26,8 +26,7 @@ namespace TISensorBrowser
 			InitializeComponent ();
 			this.adapter = adapter;
 			this.device = device;
-			this.services = new ObservableCollection<IService> ();
-			listView.ItemsSource = services;
+
 
 			// when device is connected
 			adapter.DeviceConnected += (s, e) => {
@@ -39,7 +38,7 @@ namespace TISensorBrowser
 						
 					Debug.WriteLine("device.ServicesDiscovered");
 					
-					if (services.Count == 0)
+						if (foundScratchflag == false)
 						Device.BeginInvokeOnMainThread(() => {
 
 							foreach (IService service in device.Services) {
@@ -54,11 +53,6 @@ namespace TISensorBrowser
 							if (foundScratchflag == true){
 							
 								cm = new CharacteristicManager(adapter, device, Service, Scartch_Service_2);
-									var time_page = new SetTimerPage ();
-
-
-									// load services on the next page
-									Navigation.PushAsync(time_page);
 									if (cm.Detail.Characteristic.CanUpdate) {
 										cm.Detail.Characteristic.ValueUpdated += (object sender, CharacteristicReadEventArgs eve) => {
 											Debug.WriteLine("Characteristic.ValueUpdated");
