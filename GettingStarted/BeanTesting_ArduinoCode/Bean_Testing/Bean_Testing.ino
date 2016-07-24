@@ -23,6 +23,7 @@ void loop() {
   if(connected){
     // Turn the LED green
     Bean.setLed(0, 255, 0);
+    Bean.setScratchNumber(2, temperature);
   }
   else{
     // Turn the LED red
