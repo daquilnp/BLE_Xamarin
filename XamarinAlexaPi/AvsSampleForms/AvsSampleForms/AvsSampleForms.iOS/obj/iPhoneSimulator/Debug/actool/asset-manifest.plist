@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.actool.compilation-results</key>
+	<dict>
+		<key>output-files</key>
+		<array>
+			<string>/Users/Nicholas/Downloads/xamarinavs-1.0.0.0/samples/AvsSampleForms/AvsSampleForms/AvsSampleForms.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcons29x29.png</string>
+			<string>/Users/Nicholas/Downloads/xamarinavs-1.0.0.0/samples/AvsSampleForms/AvsSampleForms/AvsSampleForms.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcons29x29@2x.png</string>
+			<string>/Users/Nicholas/Downloads/xamarinavs-1.0.0.0/samples/AvsSampleForms/AvsSampleForms/AvsSampleForms.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcons40x40@2x.png</string>
+			<string>/Users/Nicholas/Downloads/xamarinavs-1.0.0.0/samples/AvsSampleForms/AvsSampleForms/AvsSampleForms.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcons40x40@3x.png</string>
+			<string>/Users/Nicholas/Downloads/xamarinavs-1.0.0.0/samples/AvsSampleForms/AvsSampleForms/AvsSampleForms.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcons60x60@2x.png</string>
+			<string>/Users/Nicholas/Downloads/xamarinavs-1.0.0.0/samples/AvsSampleForms/AvsSampleForms/AvsSampleForms.iOS/obj/iPhoneSimulator/Debug/actool/bundle/AppIcons60x60@3x.png</string>
+			<string>/Users/Nicholas/Downloads/xamarinavs-1.0.0.0/samples/AvsSampleForms/AvsSampleForms/AvsSampleForms.iOS/obj/iPhoneSimulator/Debug/actool/partial-info.plist</string>
+		</array>
+	</dict>
+	<key>com.apple.actool.document.warnings</key>
+	<array>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcons.appiconset</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Nicholas/Downloads/xamarinavs-1.0.0.0/samples/AvsSampleForms/AvsSampleForms/AvsSampleForms.iOS/Resources/Images.xcassets</string>
+			<key>message</key>
+			<string>A 76x76 app icon is required for iPad apps targeting iOS 7.0 and later</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcons.appiconset</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Nicholas/Downloads/xamarinavs-1.0.0.0/samples/AvsSampleForms/AvsSampleForms/AvsSampleForms.iOS/Resources/Images.xcassets</string>
+			<key>message</key>
+			<string>A 76x76@2x app icon is required for iPad apps targeting iOS 7.0 and later</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcons.appiconset/[ipad][83.5x83.5][][][2x][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Nicholas/Downloads/xamarinavs-1.0.0.0/samples/AvsSampleForms/AvsSampleForms/AvsSampleForms.iOS/Resources/Images.xcassets</string>
+			<key>message</key>
+			<string>The app icon set "AppIcons" has an unassigned child.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+	</array>
+</dict>
+</plist>

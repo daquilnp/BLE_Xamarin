@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="AvsSampleForms/AvsSampleForms.Core/AvsSampleForms.Core.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../../Library/Frameworks/Xamarin.Android.framework/Versions/6.0.4-0/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets">
+    <Files>
+      <File FileName="AvsSampleForms/AvsSampleForms.Droid/Assets/api_key.txt" Line="1" Column="1" />
+      <File FileName="AvsSampleForms/AvsSampleForms.Droid/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="AvsSampleForms/AvsSampleForms.Core/HomePage.xaml.cs" Line="1" Column="1" />
+      <File FileName="AvsSampleForms/AvsSampleForms.Core/HomeViewModel.cs" Line="1" Column="1" />
+      <File FileName="AvsSampleForms/AvsSampleForms.Droid/Properties/AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="../../../../../../Library/Frameworks/Xamarin.Android.framework/Versions/6.0.4-0/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

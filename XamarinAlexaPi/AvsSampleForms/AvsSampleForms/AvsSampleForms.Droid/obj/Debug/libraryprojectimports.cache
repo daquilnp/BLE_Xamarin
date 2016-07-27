@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars></Jars>
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>/Users/Nicholas/Downloads/xamarinavs-1.0.0.0/samples/AvsSampleForms/AvsSampleForms/AvsSampleForms.Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/Nicholas/Downloads/xamarinavs-1.0.0.0/samples/AvsSampleForms/AvsSampleForms/AvsSampleForms.Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/Nicholas/Downloads/xamarinavs-1.0.0.0/samples/AvsSampleForms/AvsSampleForms/AvsSampleForms.Droid/obj/Debug/__library_projects__/ImageCircle.Forms.Plugin.Android/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/Nicholas/Downloads/xamarinavs-1.0.0.0/samples/AvsSampleForms/AvsSampleForms/AvsSampleForms.Droid/obj/Debug/__library_projects__/Xamarin.AlexaVoiceService/library_project_imports/res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>/Users/Nicholas/Downloads/xamarinavs-1.0.0.0/samples/AvsSampleForms/AvsSampleForms/AvsSampleForms.Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/Nicholas/Downloads/xamarinavs-1.0.0.0/samples/AvsSampleForms/AvsSampleForms/AvsSampleForms.Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/Nicholas/Downloads/xamarinavs-1.0.0.0/samples/AvsSampleForms/AvsSampleForms/AvsSampleForms.Droid/obj/Debug/__library_projects__/ImageCircle.Forms.Plugin.Android/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/Nicholas/Downloads/xamarinavs-1.0.0.0/samples/AvsSampleForms/AvsSampleForms/AvsSampleForms.Droid/obj/Debug/__library_projects__/Xamarin.AlexaVoiceService/library_project_imports/assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>/Users/Nicholas/Downloads/xamarinavs-1.0.0.0/samples/AvsSampleForms/AvsSampleForms/AvsSampleForms.Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/Nicholas/Downloads/xamarinavs-1.0.0.0/samples/AvsSampleForms/AvsSampleForms/AvsSampleForms.Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/Nicholas/Downloads/xamarinavs-1.0.0.0/samples/AvsSampleForms/AvsSampleForms/AvsSampleForms.Droid/obj/Debug/__library_projects__/ImageCircle.Forms.Plugin.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/Nicholas/Downloads/xamarinavs-1.0.0.0/samples/AvsSampleForms/AvsSampleForms/AvsSampleForms.Droid/obj/Debug/__library_projects__/Xamarin.AlexaVoiceService.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
+</Paths>
