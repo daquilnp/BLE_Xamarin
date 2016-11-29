@@ -8,6 +8,7 @@ using Xamarin.Avs;
 using System.Threading.Tasks;
 using Xamarin.Avs.Web.Response;
 using System.Linq;
+using System.Diagnostics;
 
 namespace AvsSampleForms
 {
@@ -51,7 +52,11 @@ namespace AvsSampleForms
                     var result = await alexa.RecognizeSpeech (cancelTokenRecording.Token);
 
                     if (result != null) {
+						
+						Debug.WriteLine("Directive Start");
+						Debug.WriteLine(Newtonsoft.Json.JsonConvert.SerializeObject (result));
                         foreach (var directive in result.MessageBody.Directives) {
+					
                             if (directive.Name == DirectiveName.Speak) {
                                 SpeechState = SpeechRecognizerState.Playing;
                                 await alexa.Speak (result.Audio); 

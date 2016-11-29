@@ -5,3 +5,4 @@ sudo npm install -g --unsafe-perm node-red
 npm install noble
 mkdir -p ~/.node-red/node_modules
 npm install --prefix ~/.node-red node-red-contrib-bean
+

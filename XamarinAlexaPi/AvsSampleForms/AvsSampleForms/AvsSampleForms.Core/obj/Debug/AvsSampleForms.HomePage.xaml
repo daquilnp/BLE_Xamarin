@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
+	x:Class="AvsSampleForms.HomePage"
+	Title="Alexa Voice Service">
+	<ContentPage.Content>
+		<Grid BackgroundColor="White" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="*" />
+				<RowDefinition Height="100" />
+			</Grid.RowDefinitions>
+
+			<controls:CircleImage x:Name="shape" Source="bg" HorizontalOptions="Center" VerticalOptions="Center" Aspect="AspectFill" WidthRequest="140" HeightRequest="140" BorderColor="#00b6ff" BorderThickness="12"></controls:CircleImage>
+
+			<Label x:Name="buttonRecord" Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" TextColor="White" FontSize="24" VerticalTextAlignment="Center" HorizontalTextAlignment="Center">
+				<Label.GestureRecognizers>
+					<TapGestureRecognizer Command="{Binding ToggleSpeechRecognition}"></TapGestureRecognizer>
+				</Label.GestureRecognizers>
+			</Label>
+
+		</Grid>
+	</ContentPage.Content>
+</ContentPage>
