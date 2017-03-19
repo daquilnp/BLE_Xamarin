@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars></Jars>
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.v4/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Droid/obj/Debug/__library_projects__/Robotics.Mobile.Core.Droid/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Droid/obj/Debug/__library_projects__/OxyPlot.Xamarin.Android/library_project_imports/res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.v4/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Droid/obj/Debug/__library_projects__/Robotics.Mobile.Core.Droid/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Droid/obj/Debug/__library_projects__/OxyPlot.Xamarin.Android/library_project_imports/assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Droid/obj/Debug/__library_projects__/Xamarin.Android.Support.v4.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Droid/obj/Debug/__library_projects__/Robotics.Mobile.Core.Droid.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Droid/obj/Debug/__library_projects__/OxyPlot.Xamarin.Android.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
+</Paths>

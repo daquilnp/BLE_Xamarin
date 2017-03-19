@@ -1,0 +1,21 @@
+﻿<Properties StartupItem="TISensorBrowser.Core/TISensorBrowser.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TISensorBrowser.Core/Pages/ServiceList.xaml.cs">
+    <Files>
+      <File FileName="TISensorBrowser.Core/Pages/ServiceList.xaml.cs" Line="42" Column="29" />
+      <File FileName="TISensorBrowser.Core/CharacteristicManager.cs" Line="40" Column="43" />
+      <File FileName="TISensorBrowser.Core/CharacteristicDetails.cs" Line="37" Column="21" />
+      <File FileName="TISensorBrowser.Core/Pages/ServiceList.xaml" Line="20" Column="42" />
+      <File FileName="TISensorBrowser.Core/Pages/SetTimerPage.xaml" Line="11" Column="15" />
+      <File FileName="TISensorBrowser.Droid/MainActivity.cs" Line="28" Column="4" />
+      <File FileName="TISensorBrowser.Core/App.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Core/App.cs" line="22" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TISensorBrowser.Droid AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

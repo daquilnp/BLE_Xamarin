@@ -1,0 +1,14 @@
+/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Core/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Core/obj/Debug/TISensorBrowser.Pages.ServiceList.xaml
+/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Core/obj/Debug/TISensorBrowser.Pages.SetTimerPage.xaml
+/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Core/obj/Debug/ServiceList.xaml.g.cs
+/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Core/obj/Debug/SetTimerPage.xaml.g.cs
+/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Core/bin/Debug/TISensorBrowser.dll.mdb
+/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Core/bin/Debug/TISensorBrowser.dll
+/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Core/obj/Debug/TISensorBrowser.dll
+/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Core/obj/Debug/TISensorBrowser.dll.mdb
+/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Core/bin/Debug/Xamarin.Forms.Core.dll
+/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Core/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Core/bin/Debug/Robotics.Mobile.Core.dll
+/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Core/bin/Debug/Newtonsoft.Json.dll
+/Users/Nicholas/Documents/BLE_Xamarin/Wahoo_Xamarin/TISensorBrowser.Core/bin/Debug/OxyPlot.dll
